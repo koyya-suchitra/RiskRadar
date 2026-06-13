@@ -1,4 +1,4 @@
-# RiskRadar – AI-Powered PPE Compliance & Workplace Safety Monitoring
+# RiskRadar – AI-Powered PPE Compliance & Workplace Safety Monitoring System
 
 ## Overview
 
