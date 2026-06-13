@@ -56,6 +56,12 @@ RiskRadar identifies the following workplace safety violations:
 
 Detected violations are highlighted directly on the video stream or image with alert messages.
 
+##  PPE Detection Output
+
+![PPE Detection Output](README_assets/output_image.jpg)
+
+This image shows RiskRadar detecting workers, safety helmets, masks, safety vests, machinery, and other workplace objects. The system highlights PPE violations such as missing helmets, masks, or safety vests using bounding boxes and alerts.
+
 ---
 
 ## Dataset
@@ -376,15 +382,7 @@ to stop detection.
 ---
 # Results
 
-## 1. PPE Detection Output
-
-![PPE Detection Output](README_assets/output_image.jpg)
-
-This image shows RiskRadar detecting workers, safety helmets, masks, safety vests, machinery, and other workplace objects. The system highlights PPE violations such as missing helmets, masks, or safety vests using bounding boxes and alerts.
-
----
-
-## 2. Training Results
+## 1. Training Results
 
 ![Training Results](README_assets/results.png)
 
@@ -392,7 +390,7 @@ This graph shows the model's performance during training. The increasing precisi
 
 ---
 
-## 3. Confusion Matrix
+## 2. Confusion Matrix
 
 ![Confusion Matrix](README_assets/confusion_matrix.png)
 
@@ -400,7 +398,7 @@ The confusion matrix illustrates how well the model distinguishes between differ
 
 ---
 
-## 4. Dataset Label Distribution
+## 3. Dataset Label Distribution
 
 ![Label Distribution](README_assets/labels.png)
 
