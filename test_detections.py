@@ -12,7 +12,7 @@ from email.mime.text import MIMEText
 BASE_DIR = Path(__file__).parent
 print("BASE_DIR =", BASE_DIR)
 MODEL_PATH = BASE_DIR / "yolov8s.pt"
-IMAGE_PATH = None #BASE_DIR / r"C:\Users\gaikw\OneDrive\Desktop\SafetyEye\processed\safetyeye_v1\test\images\-4-_png_jpg.rf.3ab1c17e03f82608a2af7b6ff6d57596.jpg"  # Use for image testing
+IMAGE_PATH = BASE_DIR / "test_images" / "image4.jpg" #BASE_DIR / r"C:\Users\gaikw\OneDrive\Desktop\SafetyEye\processed\safetyeye_v1\test\images\-4-_png_jpg.rf.3ab1c17e03f82608a2af7b6ff6d57596.jpg"  # Use for image testing
 VIDEO_PATH = None  # Set to file path for video, None for webcam
 OUTPUT_DIR = BASE_DIR / "outputs"
 CONF_THRESH = 0.25  # Confidence threshold
@@ -31,7 +31,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # -----------------------------
 # Load YOLOv8 Model
 # -----------------------------
-model = YOLO(str(MODEL_PATH))
+model = YOLO("weights/best.pt")
 print("Model Classes:", model.names)
 
 # -----------------------------
@@ -109,6 +109,7 @@ if IMAGE_PATH and IMAGE_PATH.is_file():
         cv2.imshow("PPE Detection - Image", frame)
         cv2.waitKey(0)
         cv2.destroyAllWindows()
+        exit()
 
 # -----------------------------
 # Process Video / Webcam
