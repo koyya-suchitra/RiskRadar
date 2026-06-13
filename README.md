@@ -374,6 +374,37 @@ to stop detection.
 9. Generate Safety Alerts
 
 ---
+# Results
+
+## 1. PPE Detection Output
+
+![PPE Detection Output](README_assets/output_image.jpg)
+
+This image shows RiskRadar detecting workers, safety helmets, masks, safety vests, machinery, and other workplace objects. The system highlights PPE violations such as missing helmets, masks, or safety vests using bounding boxes and alerts.
+
+---
+
+## 2. Training Results
+
+![Training Results](README_assets/results.png)
+
+This graph shows the model's performance during training. The increasing precision, recall, and mAP values indicate that the YOLOv8 model learned to detect PPE equipment accurately, while the decreasing loss values show successful training convergence.
+
+---
+
+## 3. Confusion Matrix
+
+![Confusion Matrix](README_assets/confusion_matrix.png)
+
+The confusion matrix illustrates how well the model distinguishes between different classes. Most predictions appear along the diagonal, indicating that the model correctly identifies PPE equipment and workplace objects with high accuracy.
+
+---
+
+## 4. Dataset Label Distribution
+
+![Label Distribution](README_assets/labels.png)
+
+This chart shows the distribution of object annotations in the dataset. It provides an overview of how frequently each class appears, helping to understand the dataset composition used for training the model.
 
 # Future Enhancements
 
