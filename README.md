@@ -1,8 +1,8 @@
-# AegisVision – AI-Powered PPE Compliance & Workplace Safety Monitoring
+# RiskRadar – AI-Powered PPE Compliance & Workplace Safety Monitoring
 
 ## Overview
 
-AegisVision is a computer vision–based workplace safety monitoring system that uses YOLOv8 object detection to identify Personal Protective Equipment (PPE) compliance in construction and industrial environments.
+RiskRadar is a computer vision–based workplace safety monitoring system that uses YOLOv8 object detection to identify Personal Protective Equipment (PPE) compliance in construction and industrial environments.
 
 The system analyzes images, videos, or live webcam feeds to detect workers, safety helmets, masks, safety vests, machinery, and workplace hazards. It helps improve workplace safety by automatically identifying PPE violations and generating alerts.
 
@@ -56,7 +56,7 @@ This project uses the **Construction Site Safety Image Dataset (Roboflow)** avai
 ## Project Structure
 
 ```text
-AegisVision/
+RiskRadar/
 │
 ├── dataset/
 │   ├── train/
@@ -84,8 +84,8 @@ AegisVision/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/koyya-suchitra/AegisVision.git
-cd AegisVision
+git clone https://github.com/koyya-suchitra/RiskRadar.git
+cd RiskRadar
 ```
 
 ### Create Virtual Environment
@@ -169,6 +169,8 @@ The system supports:
 
 **Suchitra Koyya**
 
-B.Tech – Computer Science & Engineering (Data Science)
+Final Year B.Tech – Computer Science & Engineering (Data Science)
 
-Passionate about Artificial Intelligence, Computer Vision, and Workplace Safety Automation.
+AI/ML Enthusiast | Computer Vision Developer | Data Science Student
+
+Focused on building intelligent systems for workplace safety, automation, and real-world industrial applications.
